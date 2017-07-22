@@ -1,0 +1,16 @@
+Source: runoverssh
+Section: admin
+Priority: optional
+Maintainer: YuLun Shih <shih@yulun.me>
+Build-Depends: debhelper (>=7)
+Standards-Version: 3.9.7
+Homepage: https://github.com/yuriescl/runoverssh
+#Vcs-Git: git://anonscm.debian.org/collab-maint/runoverssh.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/runoverssh.git
+
+Package: runoverssh
+Architecture: all
+Depends: ${misc:Depends}
+Description: Run commands over ssh in one or more hosts.
+ This program runs a Bash command/script over ssh in one or more hosts.
+
