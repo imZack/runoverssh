@@ -1,0 +1,4 @@
+debian/debhelper-build-stamp
+debian/runoverssh.debhelper.log
+debian/runoverssh.substvars
+debian/runoverssh/
